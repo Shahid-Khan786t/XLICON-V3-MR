@@ -1,0 +1,29 @@
+2024-04-06T02:05:13.312935+00:00 app[api]: Stack changed from heroku-22 to container by user rajahackerm@gmail.com
+2024-04-06T02:05:13.326606+00:00 app[api]: Release v3 created by user rajahackerm@gmail.com
+2024-04-06T02:05:13.326606+00:00 app[api]: Upgrade stack to container by user rajahackerm@gmail.com
+2024-04-06T02:05:13.527033+00:00 app[api]: Set SUDO, SUDO_NAME, HKEY, HAPP, PREFIX, BOT_NAME, PACK_NAME, AUTHER_NAME, GL_VIP, WELCOME_MSG, MENU_DESIGN, AUTO_STATUS_SEEN, AUTO_BLOCK config vars by user rajahackerm@gmail.com
+2024-04-06T02:05:13.527033+00:00 app[api]: Release v4 created by user rajahackerm@gmail.com
+2024-04-06T02:05:14.000000+00:00 app[api]: Build started by user rajahackerm@gmail.com
+2024-04-06T02:08:53.000000+00:00 app[api]: Build succeeded
+2024-04-06T02:08:53.338148+00:00 app[api]: Release v5 created by user rajahackerm@gmail.com
+2024-04-06T02:08:53.338148+00:00 app[api]: Deployed worker (5eb8fc95f969) by user rajahackerm@gmail.com
+2024-04-06T02:09:32.100402+00:00 app[api]: Scaled to worker@1:Basic by user rajahackerm@gmail.com
+2024-04-06T02:09:54.211433+00:00 heroku[worker.1]: Starting process with command `/bin/sh -c npm\ start`
+2024-04-06T02:09:54.887406+00:00 heroku[worker.1]: State changed from starting to up
+2024-04-06T02:09:55.686252+00:00 app[worker.1]: 
+2024-04-06T02:09:55.686274+00:00 app[worker.1]: > Xlicon-V3-MD@3.0 start
+2024-04-06T02:09:55.686274+00:00 app[worker.1]: > node index.js
+2024-04-06T02:09:55.686275+00:00 app[worker.1]: 
+2024-04-06T02:09:55.716611+00:00 app[worker.1]: /usr/local/bin/node
+2024-04-06T02:09:55.716613+00:00 app[worker.1]: /main.js
+2024-04-06T02:09:57.132244+00:00 app[worker.1]: Module '../XLICON-V3.js is up to date!'
+2024-04-06T02:09:57.132746+00:00 app[worker.1]: Module '../main.js is up to date!'
+2024-04-06T02:09:57.240259+00:00 app[worker.1]: Caught exception:  Error: readline was closed
+2024-04-06T02:09:57.240273+00:00 app[worker.1]:     at Interface.[kQuestion] (node:internal/readline/interface:397:13)
+2024-04-06T02:09:57.240274+00:00 app[worker.1]:     at Interface.question (node:readline:158:20)
+2024-04-06T02:09:57.240298+00:00 app[worker.1]:     at /main.js:197:52
+2024-04-06T02:09:57.240298+00:00 app[worker.1]:     at new Promise (<anonymous>)
+2024-04-06T02:09:57.240299+00:00 app[worker.1]:     at question (/main.js:197:5)
+2024-04-06T02:09:57.240299+00:00 app[worker.1]:     at startXliconBotInc (/main.js:484:29) {
+2024-04-06T02:09:57.240302+00:00 app[worker.1]:   code: 'ERR_USE_AFTER_CLOSE'
+2024-04-06T02:09:57.240309+00:00 app[worker.1]: }
